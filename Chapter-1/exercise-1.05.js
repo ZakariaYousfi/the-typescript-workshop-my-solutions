@@ -1,6 +1,6 @@
 // the schwartzian transform 
 // let's declare our array with random data 
-var Parr = [{ firstname: 'zakaria', lastname: 'yousfi' }, { firstname: 'adel', lastname: 'touzaline' }, { firstname: 'ayoub', lastname: 'rezine' }, { firstname: 'youcef', lastname: 'yousfi' }, { firstname: 'john', lastname: 'doe' }];
+var Parr = [{ firstname: 'zakaria', lastname: 'yousfi' }, { firstname: 'pasha', lastname: 'biceps' }, { firstname: 'mareks', lastname: 'yekindar' }, { firstname: 'tarik', lastname: 'celik' }, { firstname: 'john', lastname: 'doe' }, { firstname: 'forest', lastname: 'lindberg' }];
 // let's declare the getFullName function 
 function getFullName(person) {
     return person.firstname + ' ' + person.lastname;
@@ -18,6 +18,7 @@ var sortedParr = newParr.map(function (person) {
     return person[0];
 });
 // console.logging the objects in order 
+console.log(sortedParr);
 for (var _i = 0, sortedParr_1 = sortedParr; _i < sortedParr_1.length; _i++) {
     var person = sortedParr_1[_i];
     console.log(getFullName(person));

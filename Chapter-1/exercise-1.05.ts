@@ -17,6 +17,7 @@ return firstFullName.localeCompare(secondFullName);
 
 */
 
+
     // let's first declare a Person interface 
 
 interface Person {
@@ -26,15 +27,13 @@ interface Person {
 
     // let's declare our array with random data 
 
-const Parr : Array <Person> = [{firstname:'zakaria', lastname:'yousfi'},{firstname:'adel',lastname:'touzaline'},{firstname:'ayoub',lastname:'rezine'},{firstname:'youcef',lastname:'yousfi'},{firstname:'john',lastname:'doe'}]
+const Parr : Array <Person> = [{firstname:'zakaria', lastname:'yousfi'},{firstname:'pasha',lastname:'biceps'},{firstname:'mareks',lastname:'yekindar'},{firstname:'tarik',lastname:'celik'},{firstname:'john',lastname:'doe'},{firstname:'forest',lastname:'lindberg'}]
 
     // let's declare the getFullName function 
 
 function getFullName (person: Person) { 
     return person.firstname + ' ' + person.lastname
 }
-
-
 
     // we're going to use the map method of the array to convert our element to tuple in a new array
 
@@ -55,6 +54,8 @@ const sortedParr = newParr.map( (person) => {
 }) 
 
     // console.logging the objects in order 
+
+console.log(sortedParr)
 
 for ( const person of sortedParr ) {
     console.log(getFullName(person))
