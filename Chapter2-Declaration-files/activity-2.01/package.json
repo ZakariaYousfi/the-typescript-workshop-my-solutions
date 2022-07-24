@@ -1,0 +1,16 @@
+{
+  "name": "activity-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "heat_map_data.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
